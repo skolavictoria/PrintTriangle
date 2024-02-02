@@ -11,11 +11,11 @@ Your task is to write a C program that prints a triangle pattern using ats (`@`)
 ## Example Output
 If the user inputs `5`, the output should be:
 
-@
-@@
-@@@
-@@@@
-@@@@@
+@  <br />
+@@ <br />
+@@@ <br />
+@@@@ <br />
+@@@@@ <br />
 
 ## Submission Guidelines
 - Name your C source file as `triangle_pattern.c`.
