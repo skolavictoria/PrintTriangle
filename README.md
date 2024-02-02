@@ -12,13 +12,9 @@ Your task is to write a C program that prints a triangle pattern using ats (`@`)
 If the user inputs `5`, the output should be:
 
 @
-
 @@
-
 @@@
-
 @@@@
-
 @@@@@
 
 ## Submission Guidelines
