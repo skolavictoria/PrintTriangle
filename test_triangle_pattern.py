@@ -21,7 +21,7 @@ def test_triangle_pattern():
         output = file.read().strip()
 
     # Define the expected output for input 5
-    expected_output = "*\n**\n***\n****\n*****"
+    expected_output = "@\n@@\n@@@\n@@@@\n@@@@@"
 
     # Check if the program's output matches the expected output
     assert output == expected_output, "The output did not match the expected output."
