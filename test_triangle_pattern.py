@@ -3,7 +3,7 @@ import subprocess
 # Function to compile and run the student's C program, then test the output.
 def test_triangle_pattern():
     # Compile the C program
-    compile_process = subprocess.run(['gcc', 'triangle_pattern.c', '-o', 'triangle_pattern'], capture_output=True, text=True)
+    compile_process = subprocess.run(['gcc', 'triangle_pattern.c', '-o', 'triangle_pattern'], capture_output=True, text=True, encoding='utf-8')
     if compile_process.returncode != 0:
         print("Compilation failed.")
         print(compile_process.stderr)
